@@ -148,7 +148,7 @@ h2 {
   margin-bottom: 20px;
 }
 p {
-  margin: 20px 0;
+  margin: 20px;
   line-height: 1.25;
 }
 .container {
@@ -173,10 +173,15 @@ header nav a {
   color: #FC4A1A;
   text-decoration: none;
 }
+header nav .birthday {
+  height: auto;
+  width: 100%;
+}
 .flex {
   display: flex;
   flex-wrap: wrap;
   width: 104%;
+  margin: 10px;
 }
 .main-content {
   border-top: 1px  solid black;
@@ -190,4 +195,8 @@ header nav a {
   border-radius: 10%;
   width: 90%;
   height: auto;
+}
+.birthday {
+  height: auto;
+  width: 105%;
 }
