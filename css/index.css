@@ -153,11 +153,10 @@ p {
 }
 .container {
   /* constraint */
-  max-width: 85%;
+  max-width: 1058px;
   font-size: 1.6rem;
   margin: 0 auto;
   padding: 20px;
-  background-color: #4abdac;
 }
 header {
   display: flex;
@@ -192,12 +191,25 @@ header nav .birthday {
   flex-wrap: wrap;
   width: 48%;
 }
-.main-content img {
-  border-radius: 10%;
-  width: 90%;
+.main-content h2 {
+  align-items: center;
+}
+img {
+  border-radius: 10px;
   height: auto;
 }
 .birthday {
   height: auto;
+  width: 54%;
+  margin-top: 40px;
+}
+.twokids {
+  width: 44%;
+}
+.grand {
   width: 105%;
+  margin-top: 26px;
+}
+.stay {
+  width: 90%;
 }
