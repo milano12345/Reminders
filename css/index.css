@@ -157,6 +157,7 @@ p {
   font-size: 1.6rem;
   margin: 0 auto;
   padding: 20px;
+  background-color: #4abdac;
 }
 header {
   display: flex;
